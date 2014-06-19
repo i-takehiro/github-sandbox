@@ -1,0 +1,24 @@
+apply {
+    plugin 'java'
+    plugin 'eclipse'
+}
+
+ext {
+    javaVersion = 1.7
+    encoding = 'UTF-8'
+}
+
+sourceCompatibility = javaVersion
+targetCompatibility = javaVersion
+
+tasks.withType(AbstractCompile) {
+    options.encoding = encoding
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.11'
+}
