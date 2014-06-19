@@ -1,7 +1,9 @@
 # for Gradle
 /.gradle
+/build
 
 # for Eclipse
 /.settings
 .classpath
 .project
+/bin

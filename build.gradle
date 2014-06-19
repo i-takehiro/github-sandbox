@@ -15,6 +15,14 @@ tasks.withType(AbstractCompile) {
     options.encoding = encoding
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.12'
+}
+
+test {
+    exclude '**/*Test$*'
+}
+
 repositories {
     mavenCentral()
 }
