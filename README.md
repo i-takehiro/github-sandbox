@@ -1,5 +1,4 @@
 github-sandbox
 ==============
 
-
-[![Build Status](https://github.com/i-takehiro/github-sandbox.png?branch=master)](https://github.com/i-takehiro/github-sandbox)
+[![Build Status](https://travis-ci.org/i-takehiro/github-sandbox.svg?branch=master)](https://travis-ci.org/i-takehiro/github-sandbox)
