@@ -32,6 +32,7 @@ public class FizzBuzzTest {
             fixtures.add(new Fixture(5, "Buzz"));
             fixtures.add(new Fixture(6, "Fizz"));
             fixtures.add(new Fixture(7, "7"));
+            fixtures.add(new Fixture(8, "8"));
             fixtures.add(new Fixture(10, "Buzz"));
             fixtures.add(new Fixture(15, "FizzBuzz"));
             return fixtures.toArray(new Fixture[fixtures.size()]);
