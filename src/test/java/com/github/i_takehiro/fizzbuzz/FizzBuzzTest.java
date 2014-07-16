@@ -40,6 +40,7 @@ public class FizzBuzzTest {
             fixtures.add(new Fixture(13, "13"));
             fixtures.add(new Fixture(14, "14"));
             fixtures.add(new Fixture(15, "FizzBuzz"));
+            fixtures.add(new Fixture(16, "16"));
             return fixtures.toArray(new Fixture[fixtures.size()]);
         }
 
